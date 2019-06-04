@@ -16,11 +16,10 @@ public class CollectionsFactory {
         map = Collections.unmodifiableMap(map);
 
         // Java 9
-        List<String> list = List.of("a", "b", "c");
+        List<String> list2 = List.of("a", "b", "c");
 
-        Set<String> set = Set.of("a", "b", "c");
+        Set<String> set2 = Set.of("a", "b", "c");
 
-        Map<String, Integer> map = Map.of("a", 1);
+        Map<String, Integer> map2 = Map.of("a", 1);
     }
-}
 }
